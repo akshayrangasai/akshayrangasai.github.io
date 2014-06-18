@@ -1,0 +1,9 @@
+{% include head.html %}
+<h1> 
+    {{ page.title }}
+    {% if page.title %} <hr> {% endif %}
+</h1>
+
+{{ content }}
+
+{% include footer.html %}
