@@ -7,4 +7,4 @@ As a naive adoloscent and again as a sophomore, I was tricked into building webs
 <small>*If you are a potential employer, please pardon the bad jokes and informal tone</small>
 
 ##About Me
-I am from Chennai, India and love the city. Thought the weather here leaves a lot to be desired, I do miss the sweltering heat and humidity whenever I go elsewhere.  
+I am from Chennai, India and love the city. Though the weather here leaves a lot to be desired, I do miss the sweltering heat and humidity whenever I go elsewhere.  
