@@ -1,5 +1,4 @@
 ---
-layout: default
-title: Akshay Rangasai's Home
+layout: page
 --- 
-#Under Construction
+##Under Construction
