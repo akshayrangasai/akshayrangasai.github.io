@@ -10,7 +10,7 @@ title:           akshayrangasai
 tagline:          ''
 description:      ''
 url:              http://akshayrangasai.com
-paginate:         1
+paginate:        5 
 paginate_path:   "blog/page:num"
 
 author:
