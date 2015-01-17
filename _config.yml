@@ -9,7 +9,7 @@ permalink:        pretty
 title:           akshayrangasai 
 tagline:          ''
 description:      ''
-url:              http://akshayrangasai.com
+url:              www.akshayrangasai.com
 paginate:        5 
 paginate_path:   "blog/page:num"
 
