@@ -5,7 +5,7 @@ description: "Descriptions of people who are the ultimate resume whores."
 category: IITM
 tags: [placements, resume]
 imagefeature: PS_Cover.png
-
+comments: true
 ---
 
 
