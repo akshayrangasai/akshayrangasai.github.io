@@ -43,7 +43,5 @@ I took my shitty CFI robot and showed it to a bunch of kids who act fascinated s
 
 This is their first half in insti, and it forms the basic building blocks for the uber whoring they will be doing later on in life. It is sad, but I have been a whore too, only in my second year, though.
 
-Then, there is another new breed of resume whore. The really illiterate ones, who take up GA coordships and try to sell it off as the most managerial coordships of the lot. If telling a bunch of grunts with IQ levels comparable to that of neanderthals management, I should be the CEO of McKinsey.
-
-I will continue this blog post later after I am done with my endsems. Hope you guys liked it.
+Then, there is another new breed of resume whore. The really illiterate ones, who take up GA coordships and try to sell it off as the most managerial coordships of the lot. If telling a bunch of grunts with IQ levels comparable to that of neanderthals is management, I should be a managing partner at McKinsey.
 
