@@ -5,7 +5,7 @@ disqus_shortname: hmfaysal
 
 # Assign a default image for your site's header and footer
 
-default_bg:       default_bg1.jpg
+default_bg:       Landing.png
 search:           true
 share:            true
 
@@ -82,6 +82,7 @@ paginate:    6
 paginate_path: "page:num"
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
+
 permalink:   /:categories/:title
 
 kramdown:
