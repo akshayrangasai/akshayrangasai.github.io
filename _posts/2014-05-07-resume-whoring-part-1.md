@@ -4,7 +4,7 @@ title: "Resume Whoring"
 description: "Instructions on how to become the ultimate resume whore."
 category: IITM
 tags: [placements, resume]
-imagefeature: PS_Cover.png
+imagefeature: PS_Cover.jpg
 
 ---
 
