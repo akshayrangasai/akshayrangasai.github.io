@@ -1,6 +1,10 @@
 ---
 layout: post
-title: Resume Whoring – Part One
+title: "Resume Whoring"
+description: "Instructions on how to become the ultimate resume whore."
+category: IITM
+tags: [placements, funny, insecure]
+imagefeature: Landing.png
 
 ---
 
