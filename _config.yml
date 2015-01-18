@@ -100,8 +100,8 @@ kramdown:
 
 prose:
   rooturl: '_posts'
-  siteurl: 'www.akshayrangasai.com'
-  relativeLinks: 'www.akshayrangasai.com/links.jsonp'
+  siteurl: 'http://www.akshayrangasai.com'
+  relativeLinks: 'http://www.akshayrangasai.com/links.jsonp'
   media: 'images'
   metadata:
     _posts:
