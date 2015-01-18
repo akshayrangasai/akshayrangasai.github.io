@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Resume Whoring"
-description: "Instructions on how to become the ultimate resume whore."
+description: "Descriptions of people who are the ultimate resume whores."
 category: IITM
 tags: [placements, resume]
 imagefeature: PS_Cover.png
