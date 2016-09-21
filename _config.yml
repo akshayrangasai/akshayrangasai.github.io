@@ -3,19 +3,19 @@
 # # # # # # # # # # # # #
 
 # Basic
-name:               "Kiko Plus"
+name:               "akshayrangasai"
 
 
 
 author:
-  name:             your-name
-  facebook:         your-id
-  twitter:          your-id
-  github:           your-id
+  name:             Akshay Rangasai
+  facebook:         akshayrangasai
+  twitter:          ThatWasFunnyDa
+  github:           akshayrangasai
   linkedin:         your-id
   medium:           your-id
   tumblr:           your-id
-  email:            your-id@your-email.com
+  email:            akshayrangasai.d@gmail.com
 
 # Google-analytics
 google-analytics:
@@ -26,13 +26,13 @@ disqus:
   id:               "your-id"
 
 # URL
-url:                "https://AWEEKJ.github.io"
+url:                "https://akshayrangasai.com"
 #url:               "localhost:4000"
 baseurl:            ""
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:           Asia/Seoul
+timezone:           Asia/Kolkata
 permalink:          /:year-:month-:day/:title/
 
 # Pagination
@@ -53,7 +53,7 @@ nav:
   - name:           "Tags"
     url:            "/tags"
   - name:           "Github"
-    url:            "https://github.com/AWEEKJ/Kiko-plus"
+    url:            "https://github.com/akshayrangasai"
 
 
 
