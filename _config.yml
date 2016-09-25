@@ -26,7 +26,7 @@ disqus:
   id:               "your-id"
 
 # URL
-url:                "https://akshayrangasai.com"
+url:                "http://akshayrangasai.com"
 #url:               "localhost:4000"
 baseurl:            ""
 
@@ -47,11 +47,11 @@ kramdown:
 # Navigation
 nav:
   - name:           "About"
-    url:            "/about"
+    url:            "/About"
   - name:           "Archive"
-    url:            "/archive"
+    url:            "/Archive"
   - name:           "Tags"
-    url:            "/tags"
+    url:            "/Tags"
   - name:           "Github"
     url:            "https://github.com/akshayrangasai"
 
