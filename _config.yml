@@ -42,18 +42,18 @@ paginate_path:      /page:num/
 # Markdown
 markdown:           kramdown
 kramdown:
-  imput:            GFM
+  input:            GFM
 
 # Navigation
 nav:
   - name:           "About"
-    url:            "/About"
+    url:            "/about"
   - name:           "Archive"
-    url:            "/Archive"
+    url:            "/archive"
   - name:           "Tags"
-    url:            "/Tags"
+    url:            "/tags"
   - name:           "Github"
-    url:            "https://github.com/akshayrangasai"
+    url:            "https://github.com/AWEEKJ/Kiko-plus"
 
 
 
@@ -77,9 +77,10 @@ defaults:
     values:
       layout:       "post"
 
+
 # jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
 gems:
-#  - jekyll-seo-tag
+# - jekyll-seo-tag
   - jekyll-paginate
 
 exclude:            [vendor]
