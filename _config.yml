@@ -5,6 +5,7 @@
 # Basic
 name:               "akshayrangasai"
 
+future:             true
 
 
 author:
@@ -26,9 +27,9 @@ disqus:
   id:               "your-id"
 
 # URL
-url:                "http://akshayrangasai.com"
+url:                "http://akshayrangasai.com/"
 #url:               "localhost:4000"
-baseurl:            "http://akshayrangasai.com"
+baseurl:            ""
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
