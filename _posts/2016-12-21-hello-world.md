@@ -17,3 +17,5 @@ This minimalistic theme works well for me, and hopefully, I will not change this
 Will just end this post with a quote, as I like markdown and this theme's quotations.
 
 >A measure of a man is what he does with power
+
+Well, that was abrupt af.
