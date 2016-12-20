@@ -28,7 +28,7 @@ disqus:
 # URL
 url:                "http://akshayrangasai.com"
 #url:               "localhost:4000"
-baseurl:            ""
+baseurl:            "http://akshayrangasai.com"
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
