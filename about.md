@@ -1,6 +1,6 @@
 ---
 title: About
-permalink: /About/
+permalink: /about/
 ---
 ![Me]({{site.url}}/assets/images/about.jpg)
 
