@@ -169,6 +169,4 @@ Next post, I will model this as a Markov process and estimate mean waiting time 
 I am a consultant by trade, and every Monday morning and Friday evening, I wait at airports in queues to get checked, and I thought it'd be fun to go ahead and model this phenomenon in a quick and dirty fashion. Maybe somebody from the airport will see this and realize what parameters are important in this and the non-linearity involved.
 
 
-```python
-
-```
+Hope you enjoyed this post. Please feel free to share your comments on this post.
