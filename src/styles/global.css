@@ -17,9 +17,21 @@
   --border-light: #F0EEEB;
 
   /* Typography */
-  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
-  --font-serif: 'Instrument Serif', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Lato', system-ui, -apple-system, sans-serif;
+  --font-serif: 'Lora', Georgia, 'Times New Roman', serif;
+  --font-serif-display: 'DM Serif Display', serif;
   --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+  /* Fluid Type Scale (Utopia) - 320px to 1240px */
+  /* Scale: Major Third (1.25) */
+  --step--2: clamp(0.6864rem, 0.6548rem + 0.1581vw, 0.7776rem);
+  --step--1: clamp(0.858rem, 0.7842rem + 0.369vw, 1.071rem);
+  --step-0: clamp(1.0725rem, 0.9244rem + 0.7405vw, 1.5rem);
+  --step-1: clamp(1.3406rem, 1.0694rem + 1.3562vw, 2.1221rem);
+  --step-2: clamp(1.6758rem, 1.2111rem + 2.3235vw, 3.0151rem);
+  --step-3: clamp(2.0947rem, 1.332rem + 3.8138vw, 4.2934rem);
+  --step-4: clamp(2.6184rem, 1.4077rem + 6.0534vw, 6.1042rem);
+  --step-5: clamp(3.273rem, 1.4024rem + 9.3529vw, 8.669rem);
 
   /* Spacing */
   --content-width: 680px;
@@ -41,7 +53,7 @@
 }
 
 html {
-  font-size: 17px;
+  font-size: 16px;
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -59,24 +71,19 @@ body {
 
 /* --- Typography --- */
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-serif);
+  font-family: var(--font-serif-display);
   font-weight: 400;
   color: var(--text);
-  line-height: 1.15;
-  letter-spacing: -0.02em;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
 }
 
-h1 {
-  font-size: clamp(2.4rem, 5vw, 3.6rem);
-}
-
-h2 {
-  font-size: clamp(1.6rem, 3vw, 2.2rem);
-}
-
-h3 {
-  font-size: clamp(1.2rem, 2vw, 1.6rem);
-}
+h1 { font-size: var(--step-2); }
+h2 { font-size: var(--step-1); }
+h3 { font-size: var(--step-0); }
+h4 { font-size: var(--step--1); }
+h5 { font-size: var(--step--2); }
+h6 { font-size: var(--step--2); }
 
 p {
   max-width: 65ch;
@@ -125,12 +132,21 @@ main {
 }
 
 .site-nav__logo {
-  font-family: var(--font-serif);
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-family: var(--font-serif-display);
   font-size: 1.35rem;
   font-weight: 400;
   letter-spacing: -0.03em;
   text-decoration: none;
   color: var(--text);
+}
+
+.site-nav__logo-img {
+  height: 32px;
+  width: auto;
+  filter: grayscale(1) contrast(1.2);
 }
 
 .site-nav__links {
@@ -212,32 +228,67 @@ main {
 
 /* --- Hero (Homepage) --- */
 .hero {
-  padding: 6rem 0 4rem;
+  padding: 4rem 0 3rem;
   max-width: var(--content-width);
+}
+
+.hero__content {
+  max-width: 100%;
 }
 
 .hero__eyebrow {
   display: inline-block;
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.18em;
-  color: var(--text-faint);
-  margin-bottom: 1.2rem;
-  padding: 0.35rem 0.8rem;
-  border: 1px solid var(--border);
-  border-radius: 100px;
+  letter-spacing: 0.15em;
+  color: var(--accent);
+  margin-bottom: 2rem;
+  position: relative;
+  padding-left: 3rem;
+}
+
+.hero__eyebrow::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 2rem;
+  height: 1px;
+  background-color: var(--accent);
 }
 
 .hero h1 {
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
+  font-size: var(--step-3);
+  line-height: 1.15;
 }
 
 .hero__description {
-  font-size: 1.15rem;
+  font-size: var(--step--1);
   color: var(--text-muted);
-  line-height: 1.8;
-  max-width: 52ch;
+  line-height: 1.6;
+  max-width: 48ch;
+}
+
+.hero__visual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__visual-img {
+  width: 100%;
+  max-width: 240px;
+  height: auto;
+  opacity: 0.8;
+  filter: grayscale(1) contrast(1.1);
+  transition: opacity 0.5s var(--ease-out), filter 0.5s var(--ease-out);
+}
+
+.hero__visual-img:hover {
+  opacity: 1;
+  filter: grayscale(0) contrast(1);
 }
 
 /* --- Section --- */
@@ -256,7 +307,7 @@ main {
 
 .section__title {
   font-family: var(--font-serif);
-  font-size: 1.1rem;
+  font-size: var(--step-0);
   font-weight: 400;
   color: var(--text-muted);
   letter-spacing: -0.01em;
@@ -334,7 +385,7 @@ main {
 
 .post-card__title {
   font-family: var(--font-serif);
-  font-size: 1.35rem;
+  font-size: var(--step-1);
   font-weight: 400;
   color: var(--text);
   line-height: 1.3;
@@ -403,8 +454,8 @@ main {
 .prose p {
   margin-bottom: 1.5em;
   color: var(--text);
-  font-size: 1.05rem;
-  line-height: 1.85;
+  font-size: var(--step--1);
+  line-height: 1.8;
 }
 
 .prose h2 {
@@ -421,13 +472,42 @@ main {
 
 .prose ul,
 .prose ol {
-  margin-bottom: 1.5em;
-  padding-left: 1.5em;
+  margin-bottom: 2rem;
+  padding-left: 1.75rem;
 }
 
 .prose li {
-  margin-bottom: 0.5em;
-  line-height: 1.75;
+  margin-bottom: 0.75rem;
+  line-height: 1.7;
+}
+
+.prose ol {
+  list-style-type: decimal;
+}
+
+.prose ol ol {
+  list-style-type: lower-alpha;
+}
+
+.prose ol ol ol {
+  list-style-type: lower-roman;
+}
+
+.prose ul {
+  list-style-type: disc;
+}
+
+.prose ul ul {
+  list-style-type: circle;
+}
+
+/* Custom markers for that premium feel */
+.prose ol li::marker {
+  font-family: var(--font-sans);
+}
+
+.prose ul li::marker {
+  color: var(--text-faint);
 }
 
 .prose blockquote {
@@ -466,7 +546,22 @@ main {
   max-width: 100%;
   height: auto;
   border-radius: 12px;
-  margin: 2rem 0;
+  display: block;
+  margin: 0 auto;
+}
+
+.prose figure {
+  margin: 3rem 0;
+}
+
+.prose figcaption {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  color: var(--text-faint);
+  text-align: center;
+  margin-top: 1rem;
+  font-style: italic;
+  letter-spacing: 0.01em;
 }
 
 .prose hr {
@@ -516,7 +611,7 @@ main {
 }
 
 .page-header p {
-  font-size: 1.1rem;
+  font-size: var(--step--1);
   color: var(--text-muted);
   line-height: 1.8;
 }

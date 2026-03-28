@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- A bold, stylized eye/crest symbol -->
+  <path d="M64 8 L104 56 C104 56 114 76 99 96 C84 116 44 116 29 96 C14 76 24 56 24 56 L64 8 Z" fill="#2563EB" />
+  <path d="M64 48 L80 72 L64 96 L48 72 Z" fill="#FDFBF7" />
+  <circle cx="64" cy="72" r="6" fill="#1C1917" />
+</svg>
