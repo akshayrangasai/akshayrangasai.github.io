@@ -1,0 +1,97 @@
+---
+interface Props {
+	company: string;
+	role: string;
+	dates: string;
+	description: string;
+	location?: string;
+}
+
+const { company, role, dates, description, location } = Astro.props;
+---
+
+<div class="career-card">
+	<div class="career-card__header">
+		<div class="career-card__main">
+			<h3 class="career-card__company">{company}</h3>
+			<p class="career-card__role">{role}</p>
+		</div>
+		<div class="career-card__side">
+			<span class="career-card__dates">{dates}</span>
+			{location && <span class="career-card__location">{location}</span>}
+		</div>
+	</div>
+	<p class="career-card__description">{description}</p>
+</div>
+
+<style>
+	.career-card {
+		padding: 2rem 0;
+		border-bottom: 1px solid var(--border-light);
+		transition: transform var(--duration-normal) var(--ease-out);
+	}
+
+	.career-card:last-child {
+		border-bottom: none;
+	}
+
+	.career-card__header {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+		gap: 1.5rem;
+		margin-bottom: 1rem;
+	}
+
+	.career-card__company {
+		font-family: var(--font-serif);
+		font-size: var(--step-1);
+		font-weight: 400;
+		color: var(--text);
+		margin: 0;
+		line-height: 1.2;
+	}
+
+	.career-card__role {
+		font-size: 0.9rem;
+		font-weight: 600;
+		color: var(--accent);
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		margin: 0.25rem 0 0;
+	}
+
+	.career-card__side {
+		text-align: right;
+		font-size: 0.85rem;
+		color: var(--text-faint);
+		display: flex;
+		flex-direction: column;
+		gap: 0.2rem;
+		white-space: nowrap;
+	}
+
+	.career-card__dates {
+		font-weight: 500;
+		color: var(--text-muted);
+	}
+
+	.career-card__description {
+		font-size: var(--step--1);
+		color: var(--text-muted);
+		line-height: 1.8;
+		margin: 0;
+		max-width: 65ch;
+	}
+
+	@media (max-width: 640px) {
+		.career-card__header {
+			flex-direction: column;
+			gap: 0.5rem;
+		}
+
+		.career-card__side {
+			text-align: left;
+		}
+	}
+</style>

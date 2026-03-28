@@ -20,14 +20,7 @@ const { title, description = 'A personal corner of the internet.' } = Astro.prop
 	<body>
 		<Header />
 		<main>
-		<section class="hero">
-			<div class="hero__content">
-				<h1>Hi, I'm Akshay.</h1>
-			</div>
-		</section>
-			<div class="prose">
-				<slot />
-			</div>
+			<slot />
 		</main>
 		<Footer />
 	</body>

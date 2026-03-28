@@ -19,10 +19,13 @@ const posts = (await getCollection('blog')).sort(
 	<body>
 		<Header />
 		<main>
-			<section class="page-header">
-				<h1>Blog</h1>
-				<p>All posts, newest first.</p>
-			</section>
+			<section class="hero">
+			<div class="hero__content">
+				<h1>whatamithinking</h1>
+				<p class="hero__description">Thoughts, hopes and dreams I manage to write down when I try to restart the writing habit</p>
+			</div>
+		</section>
+		
 
 			<section class="section" style="padding-top: 0;">
 				<ul class="post-list">

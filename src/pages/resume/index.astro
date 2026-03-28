@@ -1,0 +1,78 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Footer from '../../components/Footer.astro';
+import Header from '../../components/Header.astro';
+import CareerCard from '../../components/CareerCard.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={`Resume — ${SITE_TITLE}`} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section class="hero" style="padding-bottom: 1rem;">
+				<div class="hero__content">
+					<h1>whatamidoing</h1>
+					<p class="hero__description">A slightly embelished version of my workplaces and my learnings.</p>
+				</div>
+			</section>
+
+			<section class="section" style="padding-top: 0;">
+				<div class="prose prose--bleed">
+					<div class="career-list">
+						<CareerCard 
+							company="Sigma Computing"
+							role="Product Manager"
+							dates="May 2022 — Present"
+							location="New York, NY"
+							description="Building features for cloud-scale analytics and applications with AI."
+						/>
+						
+						<CareerCard 
+							company="MIT Sloan"
+							role="MBA Candidate"
+							dates="2021 — 2023"
+							location="Boston, MA"
+							description="Hungout and had fun"
+						/>
+						<CareerCard 
+							company="Accel"
+							role="Investment Analyst"
+							dates="2018 — 2020"
+							location="Bengaluru, India"
+							description="Learnt about capital allocation and deployment"
+						/>
+						<CareerCard 
+							company="Predible Health"
+							role="Product Manager"
+							dates="2017 — 2018"
+							location="Bengaluru, India"
+							description="Deep learning for radiology - hard problem, harder market"
+						/>
+						<CareerCard 
+							company="The Boston Consulting Group"
+							role="Associate"
+							dates="2015 — 2017"
+							location="Chennai, India"
+							description="Finishig school, and also realized I loved building prodcuts"
+						/>
+					</div>
+
+						<CareerCard 
+							company="IIT Madras"
+							role="Mechanical Engineering"
+							dates="2010 - 2015"
+							location="Chennai, India"
+							description="I studied it because it seemed like the right thing to do, but realized quickly it wasn't for me."
+						/>
+					</div>
+				</div>
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>
