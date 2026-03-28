@@ -1,0 +1,45 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={`About — ${SITE_TITLE}`} description="A bit about me and what I'm working on." />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<div class="page-header">
+				<h1>About</h1>
+			</div>
+			<div class="prose">
+				<p>
+					Welcome to my personal site. This is where I write about things I'm
+					learning, projects I'm building, and ideas I'm thinking through.
+				</p>
+				<p>
+					I believe in learning in public — sharing rough drafts, half-finished
+					projects, and honest reflections. Not everything here will be polished,
+					and that's the point.
+				</p>
+				<h2>What you'll find here</h2>
+				<p>
+					Mostly technical writing — notes on tools, frameworks, and approaches
+					I'm exploring. Occasionally something about design, productivity, or
+					whatever else crosses my mind.
+				</p>
+				<h2>The site</h2>
+				<p>
+					Built with <a href="https://astro.build">Astro</a>. All content is
+					written in Markdown files, so it stays portable and framework-agnostic.
+					Deployed as a static site — fast, simple, no database.
+				</p>
+			</div>
+		</main>
+		<Footer />
+	</body>
+</html>
