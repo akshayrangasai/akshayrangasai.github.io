@@ -2,7 +2,8 @@
 title: 'Not so artificial greetings'
 description: "Become everybody's bestie through thoughtful wishes and greetings"
 pubDate: 'Jan 02 2023'
-tags: ['dumb startup ideas''dating', 'opinion', 'life']
+tags: ['dumb startup ideas', 'dating', 'opinion', 'life']
+updatedDate: 'Jan 02 2026'
 ---
 ### The birthday problem
 When I was in college, everybody I knew used facebook regularly, and I’d wake up and go post on people’s walls for their birthdays and weddings. I never thought it was necessary to ever remember birthdays in my life. I sometimes forgot mine because facebook did such a good job of reminding everybody.

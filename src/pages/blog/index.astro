@@ -33,6 +33,13 @@ const posts = (await getCollection('blog')).sort(
 									<div class="post-card__meta">
 										<span class="post-card__date">
 											<FormattedDate date={post.data.pubDate} />
+											{
+												post.data.updatedDate && (
+													<span class="post-card__updated">
+														&middot; Updated <FormattedDate date={post.data.updatedDate} />
+													</span>
+												)
+											}
 										</span>
 									</div>
 									<h3 class="post-card__title">{post.data.title}</h3>
