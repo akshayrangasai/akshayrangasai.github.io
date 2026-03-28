@@ -3,4 +3,4 @@
 
 export const SITE_TITLE = 'whatamiupto';
 export const SITE_DESCRIPTION = 'A personal corner of the internet — thoughts, projects, and things I find interesting.';
-export const SITE_URL = 'https://akshayrangasai.github.io';
+export const SITE_URL = 'https://akshayrangasai.com';
