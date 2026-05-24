@@ -3,13 +3,12 @@ title: Clinching your dream job
 description: Finding a job is about the process, relevel adds agents to make it easier
 pubDate: Apr 04 2026
 tags:
-  - thoughts
   - productivity
-  - opinion
   - data
-updatedDate: Apr 04 2026
+  - job-hunt
+updatedDate: May 23 2026
 ---
-### The job finding process is broken 
+### The job "hunting" process is broken 
 
 Over the last decade, I’ve changed roles five times. You’d think that navigating the tech ecosystem as a veteran job hunter would make the process smoother, but instead, it has only highlighted how painful it is as an applicant. Despite all the innovation we build _for_ our companies, the tools we use to manage our own careers are non-existent at best.
 
