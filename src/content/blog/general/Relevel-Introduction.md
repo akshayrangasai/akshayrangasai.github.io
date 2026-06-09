@@ -1,6 +1,6 @@
 ---
-title: Clinching your dream job
-description: Finding a job is about the process, relevel adds agents to make it easier
+title: Relevel - Find the job of your dreams
+description: _Don't find a job. Close it._
 pubDate: Apr 04 2026
 tags:
   - productivity
@@ -8,7 +8,7 @@ tags:
   - job-hunt
 updatedDate: May 23 2026
 ---
-### The job "hunting" process is broken 
+## The job "hunting" process is broken 
 
 Over the last decade, I’ve changed roles five times. You’d think that navigating the tech ecosystem as a veteran job hunter would make the process smoother, but instead, it has only highlighted how painful it is as an applicant. Despite all the innovation we build _for_ our companies, the tools we use to manage our own careers are non-existent at best.
 
@@ -49,7 +49,7 @@ We did this for two reasons: collective awareness and referral pooling. If a fri
 ![[Pasted image 20260523224259.png]]
 <center> The last four tabs are us sharing amongst friends</center>
 
-## Process Is the Bottleneck
+### Process Is the Bottleneck
 
 Here's the thing most people get wrong about job hunting: it's actually _easy_ to find open roles. Type a company name and "jobs" into Google and a bazillion links show up. Open LinkedIn, search your title — thousands of results. Your newsletters surface dozens more every week.
 
@@ -82,10 +82,15 @@ Relevel gives you a personal agent inbox. Email it what you want done, and it do
 And here's what killed the dream list spreadsheet: **agentic enrichment**. Every company you track gets an automated pipeline that makes your data actually useful:
 
 - **Finds the company's website** — via web search with LLM-assisted verification, not some SEO clone.
+
 - **Pulls every open role** — every position with title, location, salary (when available), and a direct link to apply. No going to a job board, setting 15 filters, scrolling through 200 listings, and squinting at the nuance of each role to decide if it's relevant.
+
 - **Filters for exactly what you want** — told Relevel you're looking for "Staff Engineer" or "Senior PM"? It only surfaces the jobs that match your profile. Smart title matching with aliases, so "Staff Software Engineer" and "Staff SWE" both count. You see the roles that matter. Nothing else.
+
 - **Summarizes what the company actually does** — scrapes their homepage and uses AI to produce a clear, honest description. What the product is, who it's for, why it matters. None of the generic enterprise jargon from landing pages.
+
 - **Enriches job details** — salary ranges, experience levels, locations, remote policy. The data you need to decide if a role is worth your time, without opening 12 tabs.
+
 - **Labels by industry** — AI/ML, Fintech, Climate Tech, Developer Tools. Every company gets categorized automatically. Want your own labels? Just add them — Relevel auto-classifies your companies to match.
 
 All of this is searchable. All of it is filterable. Find every remote-friendly Series A AI company you're tracking in seconds — something that used to take 30 minutes of tab-switching and spreadsheet scanning.
@@ -134,7 +139,7 @@ It reads your resume, your transcripts, and your other answers. It learns your v
 
 ---
 
-## Who This Is For
+### Who This Is For
 
 If you've ever:
 
