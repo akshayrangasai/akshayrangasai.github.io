@@ -33,7 +33,7 @@ The reality? I ended up spending hours copy-pasting company names, their careers
 
 For the keen eyed, you'd ask me : Why didn't you just set up linkedin alerts - I tried, and it was extremely annoying to set up, maintain and manage lifecycle of these notifications.
 
-![Spreadsheet 1](../../assets/quant-dating/relevelsp1.png)
+![Spreadsheet 1](../../../assets/quant-dating/relevelsp1.png)
 <center> Example spreadsheet from my job hunt a few years ago </center>
 
 #### The Spreadsheet Abyss
@@ -49,7 +49,7 @@ Job hunting shouldn't be a solo sport, there's always one friend who is looking 
 
 We did this for two reasons: collective awareness and referral pooling. If a friend had a contact at a company on my radar, that connection was gold. But maintaining this decentralized web of spreadsheets required constant maintenance. The friction was so high that the system eventually collapsed under its own weight.
 
-![Spreadsheet 2](../../assets/quant-dating/relevelsp2.png)
+![Spreadsheet 2](../../../assets/quant-dating/relevelsp2.png)
 <center> The last four tabs are us sharing amongst friends</center>
 
 ### Process Is the Bottleneck
