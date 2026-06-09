@@ -24,6 +24,7 @@ This probably sounds familiar, but let me drive home the point with a few anecdo
 
 #### The Endless "Dream List" Ledger
 
+
 When I transitioned into tech, I wanted to be intentional. I started building a "dream list" of target companies. These weren’t just household names; they were promising startups funded by top-tier VCs, or emerging players I discovered buried in fundraising newsletters.
 
 The goal was simple: track them, monitor their career pages for openings, and find internal connections for a warm referral.
@@ -34,6 +35,7 @@ For the keen eyed, you'd ask me : Why didn't you just set up linkedin alerts - I
 
 ![[Pasted image 20260523224107.png]]
 <center> Example spreadsheet from my job hunt a few years ago </center>
+
 #### The Spreadsheet Abyss
 
 The real administrative nightmare began once I actually started applying, . My days became consumed by manual updates: moving a row from "Applied" to "First Round," trying to decipher automated emails, and trying to gauge if my strategy was actually working.
@@ -41,6 +43,7 @@ The real administrative nightmare began once I actually started applying, . My d
 The worst part is the radio silence. There is nothing more frustrating than waiting weeks for an update, only to discover through manual checking that the job listing was quietly closed days ago. I was left wondering if my resume even hit a human desk before the door shut.
 
 #### The Fractional Network
+
 
 Job hunting shouldn't be a solo sport, there's always one friend who is looking out while you are, and if you're in college, there's definitely more. My friends and I tried to build a massive, shared spreadsheet where we tracked companies we liked across separate tabs, alongside a completely different sheet to track our individual progress without exposing the noisy, day-to-day details of our pipelines.
 
@@ -50,6 +53,7 @@ We did this for two reasons: collective awareness and referral pooling. If a fri
 <center> The last four tabs are us sharing amongst friends</center>
 
 ### Process Is the Bottleneck
+
 
 Here's the thing most people get wrong about job hunting: it's actually _easy_ to find open roles. Type a company name and "jobs" into Google and a bazillion links show up. Open LinkedIn, search your title — thousands of results. Your newsletters surface dozens more every week.
 
