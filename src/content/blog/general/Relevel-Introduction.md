@@ -1,6 +1,6 @@
 ---
 title: Relevel - Find the job of your dreams
-description: _Don't find a job. Close it._
+description: Don't find a job. Close it.
 pubDate: Apr 04 2026
 tags:
   - productivity
@@ -9,6 +9,7 @@ tags:
 updatedDate: May 23 2026
 ---
 ## The job "hunting" process is broken 
+
 
 Over the last decade, I’ve changed roles five times. You’d think that navigating the tech ecosystem as a veteran job hunter would make the process smoother, but instead, it has only highlighted how painful it is as an applicant. Despite all the innovation we build _for_ our companies, the tools we use to manage our own careers are non-existent at best.
 
@@ -22,7 +23,7 @@ Through every job hunt, I’ve run into three core problems:
 
 This probably sounds familiar, but let me drive home the point with a few anecdotes of how this plays out in reality.
 
-#### The Endless "Dream List" Ledger
+### The Endless "Dream List" Ledger
 
 
 When I transitioned into tech, I wanted to be intentional. I started building a "dream list" of target companies. These weren’t just household names; they were promising startups funded by top-tier VCs, or emerging players I discovered buried in fundraising newsletters.
@@ -36,13 +37,14 @@ For the keen eyed, you'd ask me : Why didn't you just set up linkedin alerts - I
 ![Spreadsheet 1](../../../assets/quant-dating/relevelsp1.png)
 <center> Example spreadsheet from my job hunt a few years ago </center>
 
-#### The Spreadsheet Abyss
+### The Spreadsheet Abyss
+
 
 The real administrative nightmare began once I actually started applying, . My days became consumed by manual updates: moving a row from "Applied" to "First Round," trying to decipher automated emails, and trying to gauge if my strategy was actually working.
 
 The worst part is the radio silence. There is nothing more frustrating than waiting weeks for an update, only to discover through manual checking that the job listing was quietly closed days ago. I was left wondering if my resume even hit a human desk before the door shut.
 
-#### The Fractional Network
+### The Fractional Network
 
 
 Job hunting shouldn't be a solo sport, there's always one friend who is looking out while you are, and if you're in college, there's definitely more. My friends and I tried to build a massive, shared spreadsheet where we tracked companies we liked across separate tabs, alongside a completely different sheet to track our individual progress without exposing the noisy, day-to-day details of our pipelines.
@@ -65,6 +67,7 @@ You don't need another job board. You need to close the open roles waiting for y
 
 ## Using Agents to Your Advantage
 
+
 This is why I built **[Relevel](https://app.relevel.work)** — a personal AI agent for your job search that handles the operational overhead so you can focus on what actually moves the needle: preparing, applying, and interviewing.
 
 Relevel is not a job board. It's not the right place to _discover_ jobs. It's the place where you track and maintain your entire process — from the moment you hear about a company to the day you close an offer — helped along by AI agents that do the work you shouldn't be doing manually.
@@ -72,6 +75,7 @@ Relevel is not a job board. It's not the right place to _discover_ jobs. It's 
 Here's how it solves each of the problems I described above.
 
 ### Solving the Dream List: Email Your Agent
+
 
 Remember the spreadsheet? The copy-pasting? The manual career-page monitoring? Gone.
 
@@ -103,6 +107,7 @@ And it doesn't stop. **Every night**, Relevel re-scans every tracked company's 
 
 ### Solving the Spreadsheet Abyss: Track Applications to Close
 
+
 Remember the rows I was manually shuffling between "Applied" and "First Round"? The radio silence? The roles that closed without telling me?
 
 Relevel checks every day. Every listing you're tracking gets automatically verified — if a role closes, you know immediately, not three weeks later when you finally get around to checking. No more wasted energy applying to positions that already filled.
@@ -117,6 +122,7 @@ Add external jobs manually — recruiter outreach, referrals, roles you found on
 
 ### Solving the Fractured Network: Search Together
 
+
 Remember the shared spreadsheet that collapsed under its own weight? The separate tabs, the different sheets, the friction of keeping it all in sync?
 
 Relevel lets you **connect with friends and share what you're tracking**. The best signal for whether a company is worth joining doesn't come from a job board — it comes from the people you respect. When someone you think highly of is tracking companies you haven't seen, that's a stronger signal than any algorithm.
@@ -126,6 +132,7 @@ Browse your friends' company lists. See what they're excited about. Add any comp
 Share only what you want to share — if at all. Your company list, your pipeline, your saved jobs — each is a separate permission. Collaborative without the collapse.
 
 ### Closing the Interview: Prep That Compounds
+
 
 You got the interview. Now close it.
 
@@ -144,6 +151,7 @@ It reads your resume, your transcripts, and your other answers. It learns your v
 ---
 
 ### Who This Is For
+
 
 If you've ever:
 
