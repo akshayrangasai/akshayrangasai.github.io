@@ -44,7 +44,7 @@ The real administrative nightmare began once I actually started applying, . My d
 
 The worst part is the radio silence. There is nothing more frustrating than waiting weeks for an update, only to discover through manual checking that the job listing was quietly closed days ago. I was left wondering if my resume even hit a human desk before the door shut.
 
-### The Fractional Network
+### The Fractured Network
 
 
 Job hunting shouldn't be a solo sport, there's always one friend who is looking out while you are, and if you're in college, there's definitely more. My friends and I tried to build a massive, shared spreadsheet where we tracked companies we liked across separate tabs, alongside a completely different sheet to track our individual progress without exposing the noisy, day-to-day details of our pipelines.
