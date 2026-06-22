@@ -1,23 +1,23 @@
 // @ts-check
-
-const googleAnalyticsId = 'G-Z87EQFPYQ3';
-
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 
+const googleAnalyticsId = 'G-Z87EQFPYQ3';
+
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://akshayrangasai.com',
 	integrations: [starlight({
-	  title: 'Google Tag Manager',
+	  title: 'whatamiupto',
       head: [
         // Adding google analytics
         {
           tag: 'script',
           attrs: {
             src: `https://www.googletagmanager.com/gtag/js?id=${googleAnalyticsId}`,
+			  async:true,
           },
         },
         {
