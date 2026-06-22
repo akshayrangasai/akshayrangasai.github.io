@@ -10,7 +10,7 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://akshayrangasai.com',
-	integrations: [mdx(), sitemap(), starlight({
+	integrations: [starlight({
 	  title: 'Google Tag Manager',
       head: [
         // Adding google analytics
@@ -31,5 +31,5 @@ export default defineConfig({
           `,
         },
       ],
-    })],
+    }),mdx(), sitemap()],
 });
