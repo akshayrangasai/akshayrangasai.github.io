@@ -11,6 +11,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	site: 'https://akshayrangasai.com',
 	integrations: [mdx(), sitemap(), starlight({
+	  title: 'Google Tag Manager',
       head: [
         // Adding google analytics
         {
