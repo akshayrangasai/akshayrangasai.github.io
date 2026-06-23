@@ -15,6 +15,7 @@ const { title, description = 'A personal corner of the internet.' } = Astro.prop
 <!doctype html>
 <html lang="en">
 	<head>
+
 		<BaseHead title={title ? `${title} — ${SITE_TITLE}` : SITE_TITLE} description={description} />
 	</head>
 	<body>
